@@ -1,0 +1,32 @@
+# Core ML/DL (CPU-optimized)
+torch==2.6.0
+torch-geometric==2.6.1
+
+# Graph Processing
+networkx==3.2.1
+python-igraph==0.11.8
+
+# RL (using stable-baselines3 only, ray is optional)
+gymnasium==0.29.1
+stable-baselines3==2.3.2
+
+# LLM (Lightweight CPU models)
+transformers==4.46.3
+sentence-transformers==3.2.0
+accelerate==1.2.0
+
+# Data Processing
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.14.1
+scikit-learn==1.5.2
+
+# Visualization
+plotly==5.24.1
+matplotlib==3.9.2
+
+# Utils
+pyyaml==6.0.2
+tqdm==4.67.1
+joblib==1.4.2
+requests==2.32.3
